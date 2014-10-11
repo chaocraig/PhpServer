@@ -11,13 +11,13 @@
  
  
 /* change here */
-define('ROOT_URL', 'http://ec2-54-68-13-103.us-west-2.compute.amazonaws.com/Sogi-Server/wwwroot');
-define('LOCAL_ROOT_URL', 'http://ec2-54-68-13-103.us-west-2.compute.amazonaws.com/Sogi-Server/wwwroot');
+define('ROOT_URL', 'http://?.us-west-2.compute.amazonaws.com/Sogi-Server/wwwroot');
+define('LOCAL_ROOT_URL', 'http://?.us-west-2.compute.amazonaws.com/Sogi-Server/wwwroot');
 
 define("MySQL_HOST", 'localhost');
-define('MySQL_DBNAME', 'sogidb');
+define('MySQL_DBNAME', '?');
 define('MySQL_USERNAME', 'root');
-define('MySQL_PASSWORD', 'chao');
+define('MySQL_PASSWORD', '?');
 /* end change here */
 
 define('AdministratorEmail', "chaocraig@gmail.com");
